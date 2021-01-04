@@ -82,7 +82,6 @@ numba==0.50.1
 numexpr==2.7.1
 oauthlib==3.0.1
 opencv-python==4.4.0.42
-opt-einsum==0+untagged.61.gd905544.dirty
 packaging==20.4
 pandocfilters==1.4.2
 parso==0.7.0
