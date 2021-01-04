@@ -14,7 +14,7 @@ Werkzeug==1.0.1
 wincertstore==0.2
 gunicorn
 keras
-time==0.7
 pygame
 cv2
 os
+time==0.7
