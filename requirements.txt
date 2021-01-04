@@ -15,6 +15,5 @@ wincertstore==0.2
 gunicorn
 keras
 pygame
-cv2
 os
-time==0.7
+
