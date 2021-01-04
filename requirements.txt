@@ -15,5 +15,5 @@ wincertstore==0.2
 gunicorn
 keras
 pygame
-os
+
 
