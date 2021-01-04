@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Drowsiness Detection</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<style>
+
+ #use{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+ #use:hover{
+ background-color: #555555;
+  color: white;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+</style>  
+</head>
+
+<body>
+
+    <div class="header">
+    <h1>Drowsiness Detection</h1>
+    </div>
+	
+	
+	<img src="https://www.acnnewswire.com/topimg/Low_eyeSight20180620.jpg" width="700">
+    <img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/55152/versions/4/screenshot.jpg"  width="630">
+    
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{url_for('Detect')}}">
+    	
+        <div style="position:absolute;left:700px;top:650px;"><button type="submit" id="use">Open Camera</button></div>
+    </form>
+
+   <br>
+   <br>
+
+  
+
+
+
+</body>
+</html>
