@@ -15,5 +15,6 @@ wincertstore==0.2
 gunicorn
 keras
 pygame
+RUN conda install -yc conda-forge opencv
 
 
